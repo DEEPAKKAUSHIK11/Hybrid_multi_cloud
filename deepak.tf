@@ -1,15 +1,9 @@
 
-provider "aws" {
-  region     = "ap-south-1"
-  access_key = "AKIASDABDGU7OAMDR67T"
-  secret_key = "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"
-  profile="deepak"
-}
 
-//provider "aws" {
-//profile="deepak"
-//region="ap-south-1"
-//}
+provider "aws" {
+    profile="deepak"
+    region="ap-south-1"
+}
 
 
 //creating AMI_ID
